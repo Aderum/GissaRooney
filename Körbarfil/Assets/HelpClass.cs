@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Data;
 using Mono.Data.SqliteClient;
@@ -24,6 +24,7 @@ public static class HelpClass : object {
 		while (reader.Read()) {
 						resultat [person, 0] = reader.GetString (0);
 						resultat [person, 1] = reader.GetString (1);
+			person++;
 				}
 		reader.Close ();
 		reader = null;

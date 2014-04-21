@@ -7,71 +7,11 @@ Direct3D:
     VRAM:     1034 MB (via DXGI)
     Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=0
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Oskar\Documents\Körbarfil\Startafil_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Oskar\Documents\Körbarfil\Startafil_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Oskar\Documents\Körbarfil\Startafil_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Oskar\Documents\Körbarfil\Startafil_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.054 seconds
+Platform assembly: C:\Users\Oskar\Documents\GitHub\GissaRooney\Körbarfil\Startafil_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Oskar\Documents\GitHub\GissaRooney\Körbarfil\Startafil_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Oskar\Documents\GitHub\GissaRooney\Körbarfil\Startafil_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Oskar\Documents\GitHub\GissaRooney\Körbarfil\Startafil_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.107 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.288602 ms
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 114.
-Total: 0.656027 ms (FindLiveObjects: 0.008210 ms CreateObjectMapping: 0.005747 ms MarkObjects: 0.123159 ms  DeleteObjects: 0.018884 ms)
-
-UnloadTime: 0.243854 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 115.
-Total: 0.590753 ms (FindLiveObjects: 0.005336 ms CreateObjectMapping: 0.005747 ms MarkObjects: 0.123159 ms  DeleteObjects: 0.003694 ms)
-
-UnloadTime: 0.233591 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 115.
-Total: 0.562015 ms (FindLiveObjects: 0.005336 ms CreateObjectMapping: 0.005747 ms MarkObjects: 0.117411 ms  DeleteObjects: 0.003284 ms)
-
-UnloadTime: 0.231539 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 115.
-Total: 0.603890 ms (FindLiveObjects: 0.006157 ms CreateObjectMapping: 0.006979 ms MarkObjects: 0.128906 ms  DeleteObjects: 0.003694 ms)
-
-UnloadTime: 0.251655 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 115.
-Total: 0.565710 ms (FindLiveObjects: 0.004926 ms CreateObjectMapping: 0.005336 ms MarkObjects: 0.127674 ms  DeleteObjects: 0.003694 ms)
-
-UnloadTime: 0.229896 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 115.
-Total: 0.612921 ms (FindLiveObjects: 0.006568 ms CreateObjectMapping: 0.006568 ms MarkObjects: 0.137527 ms  DeleteObjects: 0.004515 ms)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1650)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: needs reset, doing it
-FullResetD3DDevice
-ResetD3DDevice
-dev->Reset
-D3Dwindow device not lost anymore
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1650)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: needs reset, doing it
-FullResetD3DDevice
-ResetD3DDevice
-dev->Reset
-D3Dwindow device not lost anymore
