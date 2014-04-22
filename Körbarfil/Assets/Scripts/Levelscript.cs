@@ -6,9 +6,10 @@ public class Levelscript : MonoBehaviour {
 	public Texture2D bakgrund;
 	GameObject other;
 	bool test = false;
+	public GUISkin skin;
 
 	void OnGUI () {
-
+		GUI.skin = skin;
 	GUI.DrawTexture (new Rect ((Screen.width / 3), 0, Screen.width, Screen.height), bakgrund);
 		// Make the first button. If it is pressed, Application.Loadlevel (1) will be executed
 	if(GUI.Button(new Rect(((Screen.width/3)*2)-220,(Screen.height/5)*3,200,80), profilManager.Svar1)) {
@@ -31,7 +32,7 @@ public class Levelscript : MonoBehaviour {
 			//Application.LoadLevel("Level1");
 		}
 		if (test) {
-			GUI.Label(new Rect((Screen.width/3)*2,Screen.height/5,100,100), profilManager.rättSvar);
+			GUI.Label(new Rect((Screen.width/3)*2 -100,Screen.height/5,200,200), profilManager.rättSvar);
 		}
 		
 		// Make the second button.
@@ -40,18 +41,15 @@ public class Levelscript : MonoBehaviour {
 	private bool RättEllerFel(string Svar){
 
 		if(string.Equals(Svar,profilManager.rättSvar)){
-			SkrivUtNamn();
-			//Application.LoadLevel("VinstSkärm");
+			test = true;
+			Application.LoadLevel("VinstSkärm");
 			return true;
 		}
+	//skin.button.
+		//skin.button.normal.background = AssetDatabase.LoadAssetAtPath("Assets/Bilder/"+"Wayne.jpg",typeof(Texture2D)) as Texture2D;
 		return false;
 		}
-	private void SkrivUtNamn(){
 
-		test = true;
-		//GUI.Label(new Rect((Screen.width/3)*2,Screen.height/5,100,100), profilManager.rättSvar);
-	
-	}
 }
 
 

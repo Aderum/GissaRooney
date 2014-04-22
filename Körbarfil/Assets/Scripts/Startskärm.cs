@@ -2,8 +2,10 @@
 using System.Collections;
 
 public class Startskärm : MonoBehaviour {
+	public GUISkin skin;
 
 	void OnGUI () {
+		GUI.skin = skin;
 		// Make a background box
 		//GUI.backgroundColor = Color.yellow;
 		//GUI.color = Color.blue;

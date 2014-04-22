@@ -10,7 +10,7 @@ public static class HelpClass : object {
 		string[,] resultat = new string[antal,2];
 		int person = 0;
 
-		string connectionString = "URI=file:"+Application.dataPath+ "/SqliteTest";
+		string connectionString = "URI=file:"+Application.dataPath+ "/ProfilDb";
 		IDbConnection dbcon;
 		dbcon = (IDbConnection) new SqliteConnection(connectionString);
 		dbcon.Open();
@@ -18,7 +18,7 @@ public static class HelpClass : object {
 		
 		
 		string sql =
-			"SELECT name, picture " +"FROM profil";
+			"SELECT Name, Filename " +"FROM profil";
 		dbcmd.CommandText = sql;
 		IDataReader reader = dbcmd.ExecuteReader ();
 		while (reader.Read()) {

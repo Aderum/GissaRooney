@@ -31,6 +31,7 @@ public class profilManager : MonoBehaviour {
 		for (int i = 0; i<4; i++) {
 			string temp = resutat[i,0];
 			int r = Random.Range(0,4);
+			Debug.Log(r);
 			resutat[i,0] = resutat[r,0];
 			resutat[r,0] = temp;
 			
