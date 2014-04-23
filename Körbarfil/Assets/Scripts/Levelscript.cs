@@ -4,11 +4,13 @@ using UnityEditor;
 
 public class Levelscript : MonoBehaviour {
 	public Texture2D bakgrund;
+	public Texture2D Options;
 	GameObject other;
 	bool test = false;
-	public GUISkin skin;
+	public GUISkin skin,skin2;
 
 	void OnGUI () {
+
 		GUI.skin = skin;
 	GUI.DrawTexture (new Rect ((Screen.width / 3), 0, Screen.width, Screen.height), bakgrund);
 		// Make the first button. If it is pressed, Application.Loadlevel (1) will be executed
@@ -33,6 +35,11 @@ public class Levelscript : MonoBehaviour {
 		}
 		if (test) {
 			GUI.Label(new Rect((Screen.width/3)*2 -100,Screen.height/5,200,200), profilManager.rättSvar);
+		}
+		GUI.skin = skin2;
+		if(GUI.Button(new Rect((Screen.width/10) * 9,Screen.height/100,100,100),Options)){
+			//if(GUI.Button(new Rect(250,100,100,100),Options)){	
+			Application.LoadLevel("Inställningar");
 		}
 		
 		// Make the second button.

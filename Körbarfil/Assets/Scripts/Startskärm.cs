@@ -13,12 +13,12 @@ public class Startskärm : MonoBehaviour {
 		//Keyboard.active = true;
 		
 		// Make the first button. If it is pressed, Application.Loadlevel (1) will be executed
-		if(GUI.Button(new Rect(Screen.width/2,130,160,50), "Level 1")) {
+		if(GUI.Button(new Rect(Screen.width/2.5f,250,200,70), "Spela")) {
 			Application.LoadLevel("Level1");
 		}
 		
-		if(GUI.Button(new Rect(Screen.width/2,200,160,50), "Level 2")) {
-			Application.LoadLevel("Level1");
+		if(GUI.Button(new Rect(Screen.width/2.5f,350,200,70), "Inställningar")) {
+			Application.LoadLevel("Inställningar");
 		}
 		
 		// Make the second button.

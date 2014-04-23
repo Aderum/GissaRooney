@@ -83,6 +83,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 705016261}
   - 114: {fileID: 705016260}
+  - 114: {fileID: 705016262}
   m_Layer: 2
   m_Name: Knappar
   m_TagString: Untagged
@@ -114,6 +115,19 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 931885617}
+--- !u!114 &705016262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 705016259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4331a3c1d8bad3f42b25b523f41e80e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skin: {fileID: 11400000, guid: 17ee5e791fee40d44afc1f833d65d4f2, type: 2}
+  Options: {fileID: 2800000, guid: f84f82485ff0e414a89e85e92f53614d, type: 3}
 --- !u!1 &931885616
 GameObject:
   m_ObjectHideFlags: 0
